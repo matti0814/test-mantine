@@ -6,6 +6,7 @@ import { useState } from "react";
 function DemoDrawer() {
   const [opened, setOpened] = useState(false);
   const theme = useMantineTheme();
+  console.log("latest")
   return (
     <>
       <Drawer
